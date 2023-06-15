@@ -1,0 +1,270 @@
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+    }
+    .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: "Angeline_Vintage";
+  src: url(../fonts/Angeline_Vintage.ttf); }
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../fonts/Montserrat-Bold.ttf); }
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(../fonts/Roboto-Regular.ttf); }
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url(../fonts/Roboto-Italic.ttf); }
+body {
+  font-family: "Roboto-Regular";
+  font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold"; }
+
+.container-fluid {
+  padding: 0; }
+  footer .container-fluid{
+    padding-top: 3rem !important;
+  }
+  header {
+    background-image: url(../images/home-bg.png);
+    text-align: center;
+    padding: 20px 0;
+    padding-bottom: 50px; }
+    header .bg-cover {
+        background: rgba(0, 0, 0, 0.7); }
+
+      header h2.logo {
+        font-size: 75px;
+        font-family: "Angeline_Vintage";
+        color: #ffffff; }
+      header .nav-fill {
+        max-width: 250px; }
+        header .nav-fill a {
+          color: #ffffff; }
+        header .nav-fill li:hover a {
+          color: #03133a; }
+      header .navbar li.nav-item a.nav-link {
+        font-family: "Montserrat-Bold";
+        color: #ffffff;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem; }
+        header .bar1, header .bar2, header .bar3 {
+            width: 25px;
+            height: 2px;
+            background-color: #fff;
+            margin: 5px 0;
+            transition: 0.4s;
+            display: block;
+            position: relative; }
+          header .change .bar1 {
+            -webkit-transform: rotate(-42deg) translate(-2px, 6px);
+            transform: rotate(-42deg) translate(-2px, 6px); }
+          header .change .bar2 {
+            opacity: 0; }
+          header .change .bar3 {
+            -webkit-transform: rotate(46deg) translate(-4px, -8px);
+            transform: rotate(46deg) translate(-4px, -8px); }
+  .nav-search {
+    display: none;
+    max-width: 600px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    height: auto; }
+  
+  .toggle-search {
+    margin-top: 12px;
+    cursor: pointer; }
+    .stay {
+        background: url(../images/stay-bg.png);
+        background-repeat: repeat; }
+        .stay h2 {
+          font-size: 48px;
+          color: #03133a; }
+        .stay p {
+          font-family: "Roboto-Italic";
+          font-size: 15px;
+          color: #131313; }
+        .stay input {
+            
+          border: none;
+          font-size: 16px;
+          font-family: "Roboto-Regular";
+          padding: 15px;
+          border-radius: 0;
+          height: auto; }
+        .stay ::placeholder {
+          font-family: "Roboto-Regular";
+          color: rgba(19, 19, 19, 0.2); }
+        .stay button {
+          width: 139px;
+          font-family: "Montserrat-Bold";
+          font-size: 16px;
+          padding: 15px 0;
+          margin-top: -2px;
+          border-radius: 0;
+          background: #03133a;
+          border-color: #03133a; }
+          .stay button:hover {
+            background: #06236a;
+            border-color: #06236a; }
+      
+      footer {
+        background-image: url(../images/home-bg.png);
+        height:274px;
+     }
+        footer h2.logo {
+          font-size: 75px;
+          font-family: "Angeline_Vintage";
+          color: #ffffff; }
+        footer .nav-fill {
+          max-width: 250px; }
+          footer .nav-fill a {
+            color: #ffffff; }
+          footer .nav-fill li:hover a {
+            color: #03133a; }
+        footer .copyright {
+          padding: 34px 0;
+          background-color: rgba(0, 0, 0, 0.451); }
+          footer .copyright p {
+            color: #999999; }
+.mask{
+ padding:5%;
+}
+/* Center the login form */
+.login-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 400px; /* new width */
+  z-index: 999; 
+}
+
+/* Style the form elements */
+.login-form label {
+  display: block;
+  margin-bottom: 5px; /* reduced space between fields */
+  text-align: center;
+  color: #000; /* black text */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* reduced space between fields */
+  border-radius: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  color: #000; /* black text */
+}
+
+.login-form button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: white; /* black button */
+  color: black;
+  transition: background-color 0.3s ease; /* added transition effect */
+}
+
+.login-form button[type="submit"]:hover {
+  background-color: black; /* white button on hover */
+  color: white;
+  cursor: pointer;
+}
+
+/* Style the register link */
+.login-form a {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top:5px;
+  color: black;
+  text-decoration: none;
+}
+
+/* Style the close button */
+.login-form .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  color: #000;
+  cursor: pointer;
+}
+/* Style the heading */
+.login-form h2 {
+  text-align: center;
+  color: #000;
+  padding-bottom: 10px; /* added padding */
+}
+
+.login-form .close-button:hover {
+  color: #4CAF50;
+}
+
+/* Style the login form when blurred */
+.login-form.blur {
+  filter: blur(5px);
+}
+
+/* Add a border to the body when blurred */
+body.blur {
+  border: 5px solid rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+@media (max-width: 767px) {
+    .mt-md-4 {
+      margin-top: 50px; } }
+  @media (max-width: 991px) {
+    .ar-content .col-lg-9 {
+      padding-right: 15px !important; }
+    .ar-content .col-lg-3 {
+      padding-left: 15px !important; } }
+  
+  /*# sourceMappingURL=style.css.map */
+  

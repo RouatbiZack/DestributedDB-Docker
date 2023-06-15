@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/Register.css">
+    
+        <title>Bloggy</title>
+    </head>
+<body>
+    <header class="mt-0 pt-0">
+        <div class="bg-cover clearfix pt-3">
+            <a href="index.html"><h2 class="logo" >Bloggy</h2></a>
+            <nav class="nav nav-fill mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://facebook.com/fh5co" target="_blank"><i
+                            class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://twitter.com/fh5co" target="_blank"><i
+                            class="fab fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fab fa-google-plus-g"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-rss"></i></a>
+                </li>
+                
+            </nav>
+
+
+            <input type="text" id="nav-search" class="nav-search mx-auto" name="" class="form-control">
+            <div class="ml-0 mr-0 pb-1">
+                <nav class="navbar navbar-expand-md">
+
+                    <button class="navbar-toggler ml-auto" data-target="#my-nav" data-toggle="collapse"
+                        aria-controls="my-nav" aria-expanded="false" onclick="myFunction(this)"
+                        aria-label="Toggle navigation">
+                        <span class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span>
+                    </button>
+                    <div id="my-nav" class="collapse navbar-collapse">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="article.html">NEWS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="article.html">HISTORY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CULTURE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">TECH</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">LIFE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">OPINION</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" onclick="showLoginForm()">CONNECT</a>
+                            </li>
+                            <li class="nav-item">
+                                <form action="" method="POST">
+                                    <div class="input-group mt-0 mx-auto" style="width:16px;">
+
+                                        <div class="">
+                                            <img src="assets/images/search-icon.png" id="toggle-search"
+                                                class="ml-2 toggle-search" alt="search icon">
+                                        </div>
+                                    </div>
+                                </form>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        </header>
+        <section class="vh-100 bg-image"
+        style="background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp');">
+        <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+          <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+              <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                <div class="card" style="border-radius: 15px;">
+                  <div class="card-body p-5">
+                    <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+      
+                    <form action="/register" method="post">
+      
+                      <div class="form-outline mb-4">
+                        <input type="text" id="username" name="username" class="form-control form-control-lg" placeholder="Your Name" />
+                        
+                      </div>
+      
+                      <div class="form-outline mb-4">
+                        <input type="email" id="email" name="email" class="form-control form-control-lg" placeholder="Your Email" />
+                       
+                      </div>
+      
+                      <div class="form-outline mb-4">
+                        <input type="password" id="password" name="password" class="form-control form-control-lg" placeholder="Your Password" />
+                        
+                      </div>
+      
+                      <div class="form-outline mb-4">
+                        <input type="password" id="confirmPassword" name="confirmPassword" class="form-control form-control-lg" placeholder="Confirm Your Password"/>
+                        
+                      </div>
+      
+                      <div class="form-check d-flex  mb-5">
+                        <input class="form-check-input me-2" type="checkbox"   required/>
+                        <label class="form-check-label" for="form2Example3g">
+                          I agree to all statements in   <a href="#!" class="text-body"><u>Terms of service</u></a>
+                        </label>
+                      </div>
+      
+                      <div class="d-flex justify-content-center">
+                        <button type="submit"
+                          class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
+                      </div>
+      
+                      <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="#!" onclick="showLoginForm()"
+                          class="fw-bold text-body"><u>Login here</u></a></p>
+      
+                    </form>
+      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+          
+      <div class="container-fluid jumbotron-fluid stay mt-5 pt-5 pb-5">
+        <h2 class="text-center">Stay Updated</h2>
+        <p class="text-center mt-2">Sign up for our newsletter to receive the latest news and event postings.</p>
+        <form class="input-group mt-4 mx-auto" style="max-width: 640px" action="/subscribe" method="POST">
+          <input id="NewsLetter" name="email" type="email" class="form-control" placeholder="YOUR EMAIL ADDRESS">
+          <div class="">
+            <button class="btn btn-success ml-2" type="submit">SIGN UP</button>
+          </div>
+        </form>
+      </div>
+    
+        <footer class="container-fluid pt-5">
+            <div class="container">
+                <h2 class="logo text-center">Bloggy</h2>
+                <nav class="nav nav-fill mx-auto mt-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://facebook.com/fh5co" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://facebook.com/fh5co" target="_blank"><i
+                                class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fab fa-google-plus-g"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-rss"></i></a>
+                    </li>
+                </nav>
+            </div>
+            <div class="copy-right mt-4">
+                <p class="text-center" style="color:#999999">&copy; 2023 <a href="#" class="text-white">Bloggy</a>. All Rights Reserved. Design
+                    by <a href="https://freehtml5.co/shahala" target="_blank" class="text-white">ZaCorporation</a>.</p>
+            </div>
+        </footer>
+      
+    
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/jquery-1.12.0.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/article.js"></script>
+        <script src="assets/js/showLoginForm.js"></script>
+  
+</body>
+</html>
